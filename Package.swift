@@ -7,7 +7,8 @@ let package = Package(
         .iOS(.v9)
     ],
     products: [
-    	.library(name: "VoximplantSDK", targets: ["VoximplantSDK", "VoximplantWebRTC"]),
+    	.library(name: "VoximplantSDK", targets: ["VoximplantSDK"]),
+        .library(name: "VoximplantWebRTC", targets: ["VoximplantWebRTC"])
     ],
     dependencies: [
     ],
